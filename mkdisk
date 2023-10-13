@@ -1,0 +1,4 @@
+# mkdisk sh script
+rm -f diskimage
+sudo wget https://eecs.wsu.edu/~cs360/samples/mkdir_creat_rmdir/diskimage -O diskimage
+sudo chmod 777 diskimage
